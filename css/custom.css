@@ -57,6 +57,10 @@
   color: #fff !important;
 }
 
+.text-center {
+  text-align: center !important;
+}
+
 .mock-video {
   border-radius: 2.5rem !important;
   border-right: inset;
@@ -197,4 +201,28 @@ sup.tm {
   margin: 0rem 0.3rem 0.3rem 0;
   vertical-align: top;
   display: inline-block;
+}
+
+.section-strip {
+  background: #4147d6;
+  padding: 3rem 0;
+}
+
+.strip__text {
+  max-width: 600px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg-white {
+  background: #fff;
+  height: 56px;
+  line-height: 56px;
+  border-radius: 28px;
+  font-size: 16px;
+  color: #4248d7;
+  font-weight: 600;
 }
