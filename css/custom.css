@@ -1,0 +1,200 @@
+@font-face {
+  font-family: Girory;
+  font-weight: 300;
+  font-style: normal;
+  src: url(../fonts/Gilroy-Light/Gilroy-Light.eot);
+  src: url(../fonts/Gilroy-Light/Gilroy-Light.svg) format("svg"),
+    url(../fonts/Gilroy-Light/Gilroy-Light.woff) format("woff"),
+    url(../fonts/Gilroy-Light/Gilroy-Light.woff2) format("woff2"),
+    url(../fonts/Gilroy-Light/Gilroy-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/Gilroy-Regular/Gilroy-Regular.eot);
+  src: url(../fonts/Gilroy-Regular/Gilroy-Regular.svg) format("svg"),
+    url(../fonts/Gilroy-Regular/Gilroy-Regular.woff) format("woff"),
+    url(../fonts/Gilroy-Regular/Gilroy-Regular.woff2) format("woff2"),
+    url(../fonts/Gilroy-Regular/Gilroy-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-weight: 500;
+  font-style: normal;
+  src: url(../fonts/Gilroy-Medium/Gilroy-Medium.eot);
+  src: url(../fonts/Gilroy-Medium/Gilroy-Medium.svg) format("svg"),
+    url(../fonts/Gilroy-Medium/Gilroy-Medium.woff) format("woff"),
+    url(../fonts/Gilroy-Medium/Gilroy-Medium.woff2) format("woff2"),
+    url(../fonts/Gilroy-Medium/Gilroy-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-weight: 600;
+  font-style: normal;
+  src: url(../fonts/Gilroy-SemiBold/Gilroy-SemiBold.eot);
+  src: url(../fonts/Gilroy-SemiBold/Gilroy-SemiBold.svg) format("svg"),
+    url(../fonts/Gilroy-SemiBold/Gilroy-SemiBold.woff) format("woff"),
+    url(../fonts/Gilroy-SemiBold/Gilroy-SemiBold.woff2) format("woff2"),
+    url(../fonts/Gilroy-SemiBold/Gilroy-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/Gilroy-Bold/Gilroy-Bold.eot);
+  src: url(../fonts/Gilroy-Bold/Gilroy-Bold..svg) format("svg"),
+    url(../fonts/Gilroy-Bold/Gilroy-Bold.woff) format("woff"),
+    url(../fonts/Gilroy-Bold/Gilroy-Bold.woff2) format("woff2"),
+    url(../fonts/Gilroy-Bold/Gilroy-Bold.ttf) format("truetype");
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.mock-video {
+  border-radius: 2.5rem !important;
+  border-right: inset;
+  width: 90% !important;
+  margin: 0 10%;
+}
+
+.cat-link {
+  padding-top: 1rem;
+  color: #4248d7;
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.faq__section {
+  background: #4147d6;
+  padding: 6rem 0;
+}
+
+.faq__inner-container {
+  margin: 0 auto;
+}
+
+.faq__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.faq__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 21px 30px;
+}
+
+.faq-block__title {
+  text-align: center;
+  width: 100% !important;
+}
+
+.faq__header.active .minus {
+  display: inline;
+}
+
+.faq__header.active .plus {
+  display: none;
+}
+
+.faq__header .minus {
+  display: none;
+}
+
+.faq__header .plus {
+  display: inline;
+}
+
+.faq__header.active span {
+  color: #314057;
+}
+
+.faq__header:hover span {
+  color: #314057;
+}
+
+.faq__header span {
+  color: #314057;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.faq__content {
+  padding: 12px 30px;
+  padding-bottom: 0;
+  font-size: 0.9rem;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out;
+}
+
+.faq__content p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.faq__content a {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  display: inline-block;
+  padding-bottom: 1px;
+}
+
+.faq__item {
+  height: auto;
+  overflow: hidden;
+  transition: height 0.3s linear;
+  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 20px 40px rgba(3, 0, 77, 0.04);
+  border-radius: 8px;
+  width: 100%;
+}
+
+.faq-section {
+  padding: 80px 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .faq {
+    /* width: 60%; */
+    margin-bottom: 0rem;
+  }
+}
+
+.faq-img {
+  position: relative;
+  width: 35%;
+}
+
+.faq-img img {
+  width: 100%;
+}
+
+.faq_ques {
+  max-height: 26px;
+  overflow: hidden;
+  width: 80%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+sup.tm {
+  font-size: 0.5rem;
+  margin: 0rem 0.3rem 0.3rem 0;
+  vertical-align: top;
+  display: inline-block;
+}

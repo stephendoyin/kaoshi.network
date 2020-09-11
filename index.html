@@ -8,6 +8,7 @@
   <head>
     <meta charset="utf-8" />
     <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link href="css/custom.css" type="text/css" rel="stylesheet" />
     <meta
       name="viewport"
       content="width=device-width,height=device-height,user-scalable=no"
@@ -34,7 +35,7 @@
               <ul>
                 <li class="active"><a href="index.html">Home</a></li>
                 <li class="header-menu__has-products">
-                  <a href="#">Products</a>
+                  <a href="#">Use cases</a>
                   <span class="header-menu__pull"></span>
                   <ul class="header-menu__products">
                     <li>
@@ -47,48 +48,42 @@
                       <a href="#">
                         <img src="img/icons/Merchfinancing-d.svg" alt="" />
                         Merchandise Financing
-                        <small>Coming soon</small>
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <img src="img/icons/Mortgageicon-d.svg" alt="" />
                         Mortgage
-                        <small>Coming soon</small>
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <img src="img/icons/loans-d.svg" alt="" />
                         Loans/Credit Cards
-                        <small>Coming soon</small>
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <img src="img/icons/Bill-d.svg" alt="" />
                         Bill Payment
-                        <small>Coming soon</small>
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <img src="img/icons/Investment-d.svg" alt="" />
                         Investment
-                        <small>Coming soon</small>
                       </a>
                     </li>
                     <li>
                       <a href="#">
                         <img src="img/icons/Insurance-d.svg" alt="" />
                         Insurance
-                        <small>Coming soon</small>
                       </a>
                     </li>
                   </ul>
                 </li>
                 <li class="header-menu__has-children">
-                  <a href="">Use Cases</a>
+                  <a href="">Products</a>
                 </li>
                 <li class="header-menu__has-children">
                   <a href="#">Resources</a>
@@ -240,7 +235,7 @@
             </div>
             <div class="products-block">
               <div class="products-block__media">
-                <video autoplay="" loop="" muted="">
+                <video autoplay="" class="mock-video" loop="" muted="">
                   <source src="img/final-video.mp4" type="video/mp4" />
                   <img src="img/Phone.png" alt="" />
                 </video>
@@ -277,24 +272,25 @@
                     <img src="img/icons/Merchfinancing.svg" alt="" />
                   </span>
                   <span class="h4">Merchandise Financing</span>
-                  <small>Coming soon</small>
+
                   <p>
                     Offer financing options to the diaspora for the purchase of
                     merchandise (cars, refrigerators, generators, inverters,
                     phones, etc) for their loved ones back home.
                   </p>
+                  <a href="" class="cat-link">View more</a>
                 </div>
                 <div class="catalog-block__item">
                   <span class="icon">
                     <img src="img/icons/Bill.svg" alt="" />
                   </span>
                   <span class="h4">Bill Payment</span>
-                  <small>Coming soon</small>
                   <p>
                     Offer diaspora bill payment services for utility bills like
                     internet, satellite TV subscription, Electricity bills,
                     airtime, etc.
                   </p>
+                  <a href="" class="cat-link">View more</a>
                 </div>
               </div>
               <div class="catalog-block__row">
@@ -303,18 +299,17 @@
                     <img src="img/icons/Mortgageicon.svg" alt="" />
                   </span>
                   <span class="h4">Mortgage</span>
-                  <small>Coming soon</small>
                   <p>
                     Offer mortgage to the diaspora to easily acquire and invest
                     in real estate properties in their home country.
                   </p>
+                  <a href="" class="cat-link">View more</a>
                 </div>
                 <div class="catalog-block__item">
                   <span class="icon">
                     <img src="img/icons/Investment.svg" alt="" />
                   </span>
                   <span class="h4">Investment</span>
-                  <small>Coming soon</small>
                   <p>
                     Offer diaspora opportunity to invest in high yield
                     investment instruments in their home countries economy -
@@ -322,6 +317,7 @@
                     return on investment back to diaspora in their foreign
                     currency.
                   </p>
+                  <a href="" class="cat-link">View more</a>
                 </div>
               </div>
               <div class="catalog-block__row">
@@ -330,30 +326,30 @@
                     <img src="img/icons/loans.svg" alt="" />
                   </span>
                   <span class="h4">Loans/Credit Cards</span>
-                  <small>Coming soon</small>
                   <p>
                     Offer cash advance and credit cards to the diaspora to
                     attend to their financial needs in their home country. Offer
                     rewards and cash back for credit card use in home country
                   </p>
+                  <a href="" class="cat-link">View more</a>
                 </div>
                 <div class="catalog-block__item">
                   <span class="icon">
                     <img src="img/icons/Insurance.svg" alt="" />
                   </span>
                   <span class="h4">Insurance</span>
-                  <small>Coming soon</small>
                   <p>
                     Offer insurance to the diaspora for their properties in
                     their home country. Offer health insurance packages to
                     diaspora for their loved ones back home.
                   </p>
+                  <a href="" class="cat-link">View more</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div id="faq" class="section section-faq">
+        <!-- <div id="faq" class="section section-faq">
           <div class="container">
             <div class="faq-block">
               <div class="faq-block__title">
@@ -457,6 +453,138 @@
               </div>
             </div>
           </div>
+        </div> -->
+        <div class="faq__section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="faq-block__title">
+                  <span class="h2 text-white">Any <b>questions?</b></span>
+                  <br />
+                </div>
+              </div>
+
+              <div class="col-md-8 faq__inner-container">
+                <div class="faq__item" style="height: 69px">
+                  <div class="faq__header">
+                    <span
+                      class="d-flex faq_ques justify-content-start c-normal text-white"
+                    >
+                      Who we are?
+                    </span>
+                    <span class="minus text-white"> − </span>
+                    <span class="plus text-white"> + </span>
+                  </div>
+                  <div class="faq__content">
+                    <p class="c-normal">
+                      kaoshi <sup class="tm">TM</sup> creates financial
+                      technologies (Software and APIs) that banks and financial
+                      institutions license and operate to enable them to provide
+                      financial services to the diaspora. Our company is on a
+                      mission to revolutionize diaspora banking, bringing state
+                      of the art innovation to the diaspora banking industry.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq__item" style="height: 69px">
+                  <div class="faq__header">
+                    <span
+                      class="d-flex faq_ques justify-content-start c-normal text-white"
+                    >
+                      What kind of institutions can license your technology?
+                    </span>
+                    <span class="minus text-white"> − </span>
+                    <span class="plus text-white"> + </span>
+                  </div>
+                  <div class="faq__content">
+                    <p class="c-normal">
+                      Kaoshi’s technology is licensed by regulated banks and
+                      financial institutions that can provide financial services
+                      to the diaspora. These include retail and commercial banks
+                      as well as other financial services like lending and bill
+                      payment service providers. Only regulated and licensed
+                      financial service providers can license and operate our
+                      technology.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq__item" style="height: 69px">
+                  <div class="faq__header">
+                    <span
+                      class="d-flex faq_ques justify-content-start c-normal text-white"
+                    >
+                      Do you serve as an intermediary between the
+                      banks/financial service providers and the diaspora?
+                    </span>
+                    <span class="minus text-white"> − </span>
+                    <span class="plus text-white"> + </span>
+                  </div>
+                  <div class="faq__content">
+                    <p class="c-normal">
+                      No, Kaoshi <sup class="tm">TM</sup> is not an
+                      intermediary. Our licensed technology allows banks and
+                      financial services to directly provide financial services
+                      to the diaspora without the need for any overseas
+                      partnership or middlemen which cut into revenue stream.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq__item" style="height: 69px">
+                  <div class="faq__header">
+                    <span
+                      class="d-flex faq_ques justify-content-start c-normal text-white"
+                    >
+                      How do banks and financial services directly market and
+                      sell their product to the diaspora? Where is the point of
+                      sale?
+                    </span>
+                    <span class="minus text-white"> − </span>
+                    <span class="plus text-white"> + </span>
+                  </div>
+                  <div class="faq__content">
+                    <p class="c-normal">
+                      Banks and financial services license our technology
+                      enabling them to directly market and sell their financial
+                      products to the diaspora via our platform, Kaoshi
+                      <sup class="tm">TM</sup> Network. Kaoshi
+                      <sup class="tm">TM</sup>
+                      Network is a personal finance platform for the diaspora
+                      that aggregates pertinent financial services which the
+                      diaspora (especially immigrants) need. Through this
+                      platform, each bank can directly market and sell its
+                      financial products and services to the diaspora. Payment
+                      for service delivery are also conducted and facilitated
+                      via the platform.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq__item" style="height: 69px">
+                  <div class="faq__header">
+                    <span
+                      class="d-flex faq_ques justify-content-start c-normal text-white"
+                    >
+                      How secure is your technology and platform?
+                    </span>
+                    <span class="minus text-white"> − </span>
+                    <span class="plus text-white"> + </span>
+                  </div>
+                  <div class="faq__content">
+                    <p class="c-normal">
+                      Security is at the core of Kaoshi’s technology. Kaoshi
+                      <sup class="tm">TM</sup> regularly undergoes both internal
+                      and external network penetration tests, and third-party
+                      code reviews. Kaoshi <sup class="tm">TM</sup> also
+                      maintains a SOC 2 Type II report via independent auditors
+                      who test the effectiveness of our Data Security program
+                      and infrastructure. If you have any questions about our
+                      security policy, please email us at
+                      <a href="">info@kaoshinetwork.com</a>.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="section section-demo">
           <div class="container">
@@ -489,6 +617,7 @@
           </div>
         </div>
       </main>
+
       <footer class="footer">
         <div class="container">
           <div class="footer-navigation">
@@ -541,6 +670,7 @@
       </footer>
     </div>
 
+    <script src="js/custom.js"></script>
     <script src="../ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/global.js"></script>
     <script src="js/main.js"></script>
