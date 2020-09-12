@@ -104,7 +104,11 @@
   text-align: center;
   width: 100% !important;
 }
-
+@media (min-width: 767px) {
+  .faq-block__title {
+    text-align: left;
+  }
+}
 .faq__header.active .minus {
   display: inline;
 }
@@ -205,7 +209,7 @@ sup.tm {
 
 .section-strip {
   background: #4147d6;
-  padding: 3rem 0;
+  padding: 3.5rem 0;
 }
 
 .strip__text {
@@ -225,4 +229,12 @@ sup.tm {
   font-size: 16px;
   color: #4248d7;
   font-weight: 600;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.strip__title {
+  margin-bottom: 1rem;
 }
