@@ -208,7 +208,10 @@ sup.tm {
 }
 
 .section-strip {
-  background: #4147d6;
+  background: url(../img/Base.png);
+  background-position: center;
+  background-size: cover;
+  /* background-size: 0em; */
   padding: 3.5rem 0;
 }
 
