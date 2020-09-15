@@ -52,7 +52,9 @@
     url(../fonts/Gilroy-Bold/Gilroy-Bold.woff2) format("woff2"),
     url(../fonts/Gilroy-Bold/Gilroy-Bold.ttf) format("truetype");
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .text-white {
   color: #fff !important;
 }
@@ -288,7 +290,7 @@ sup.tm {
 }
 
 .brands-img img {
-  max-width: 60%;
+  max-width: 50%;
 }
 
 @media (min-width: 767px) {
@@ -300,7 +302,7 @@ sup.tm {
     flex-wrap: nowrap;
   }
   .brands-img img {
-    max-width: 55%;
+    max-width: 45%;
   }
 }
 
