@@ -273,3 +273,43 @@ sup.tm {
 .text-white {
   color: #fff !important;
 }
+
+.brands-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.brands-img {
+  text-align: center;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.brands-img img {
+  max-width: 60%;
+}
+
+@media (min-width: 767px) {
+  .brands-img {
+    text-align: center;
+    width: auto;
+  }
+  .brands-container {
+    flex-wrap: nowrap;
+  }
+  .brands-img img {
+    max-width: 55%;
+  }
+}
+
+.section-brands {
+  padding: 0;
+}
+
+.section-brands .container {
+  border-top: 1px solid #e4e4e4;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
