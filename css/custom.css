@@ -241,3 +241,35 @@ sup.tm {
 .strip__title {
   margin-bottom: 1rem;
 }
+
+.input-container {
+  background: #fff;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.input-container input {
+  padding: 9px 1.3rem;
+  min-width: 60%;
+  font-size: 1rem;
+  background: transparent !important;
+  border: 0 solid transparent;
+}
+.input-container input:focus {
+  outline: none;
+}
+
+.input-container .btn-primary {
+  height: 50px;
+  line-height: 50px;
+}
+
+.text-white {
+  color: #fff !important;
+}
